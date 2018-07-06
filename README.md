@@ -14,7 +14,7 @@ This artefact was successfully tested for the following versions:
 ## Install
 
  1. Import the Policy-Fragment: limit_application_scopes.xml into your API-Manager Group configuration
- 2. In the Container: OAuth 2.0 > Access Token Service you find a policy for all support flows, like Client Credentials, JWT, Resource Owner ...</br>
+ 2. In the Container: OAuth 2.0 > Access Token Service you find a policy for all supported flows, like Client Credentials, JWT, Resource Owner ...</br>
  ![OAuth Token Policies](https://github.com/Axway-API-Management-Plus/limit-application-scopes/blob/master/images/OAuth-Policies.png)
  3. For all OAuth-Flows you want to support, change the appropriate policy. Open it ...
  4. ... and change the filter issuing the token. For example: Client Credentials

@@ -19,11 +19,17 @@ This artefact was successfully tested for the following versions:
  3. For all OAuth-Flows you want to support, change the appropriate policy. Open it ...
  4. ... and change the filter issuing the token. For example: Client Credentials
  5. Open the filter: "Access Token using client credentials" change to the second tab: "Access Token", at the bottom select: "Get scopes by calling a policy" and select the imported policy: "Get scopes for application"
-
+![Change scope generation](https://github.com/Axway-API-Management-Plus/limit-application-scopes/blob/master/images/token_generation_scopes.png)
 
 ## Usage
 In the API-Manager UI please make sure, that the global API-Manager setting: "Enable OAuth scopes per application" is enabled.
-This gives you by the default behavior of the API-Manager the option to configure additional scopes for an application. But when using this policy, we are leveraging these scope settings. 
+
+![Scopes per application](https://github.com/Axway-API-Management-Plus/limit-application-scopes/blob/master/images/enable_scopes_per_application.png)
+
+This gives you by the default the option in the API-Manager to configure additional scopes for an application.
+![Application scopes](https://github.com/Axway-API-Management-Plus/limit-application-scopes/blob/master/images/application_scopes_config.png)
+
+But when using this policy, we are leveraging these scope settings. 
 When configured in that way, an application will only get the scopes configured for an application and the switch "Default" is enabled, as the policy is considering it as Enabled/Disabled instead of a default.
 
 At runtime you will see on DEBUG the following:

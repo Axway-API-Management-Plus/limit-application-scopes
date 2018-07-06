@@ -30,7 +30,7 @@ This gives you by the default the option in the API-Manager to configure additio
 ![Application scopes](https://github.com/Axway-API-Management-Plus/limit-application-scopes/blob/master/images/application_scopes_config.png)
 
 But when using this policy, we are leveraging these scope settings. 
-When configured in that way, an application will only get the scopes configured for an application and the switch "Default" is enabled, as the policy is considering it as Enabled/Disabled instead of a default.
+When configured as described above, an application will only get the scopes configured for an application and the parameter "Default" is is considered as Enabled/Disabled by the policy.
 
 At runtime you will see on DEBUG the following:
 ````

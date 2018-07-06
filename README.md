@@ -1,8 +1,7 @@
 
 
 # Description
-In certain situations it makes sense, that an application gets only a limited set of OAuth-Token-Scopes. For instance, to make restrict some API-Methods by higher-scopes, that are not available 
-to all applications.
+In certain situations it makes sense, that an application gets only a limited set of OAuth-Token-Scopes. For instance, to  restrict some API-Methods by higher-scopes, that are not available to all applications.
 By default, the an application in API-Manager gets all Scopes of all APIs that Application is subscribed to. There is no way to restrict the scopes for an API-Administrator. 
 
 This policy provides the option to restrict the scopes per consuming application.
